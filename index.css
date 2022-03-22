@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    }
+a{
+	text-decoration: none;
+	color: #fff;
+}    
+a:hover{
+	text-decoration: none;
+}
+/*li{
+	list-style: none;
+}*/
+.logo{
+	width: 200px;
+	height: 50px;
+}
+.nav-menu{
+	font-weight: bold;
+	margin-right: 5px;
+	font-size: 16.5px;
+	text-transform: uppercase;
+}
+.nav-link{
+	color: #116f6e!important;
+}
+.nav-link:hover {
+	color: tomato!important;
+	border-bottom: 2px solid #116f6e;
+	border-radius: 2px;
+	padding: 3px;
+}
+.box{
+	background-color: #5cbacc73; 
+}
+/*.left_box{
+	margin-top: 80px;
+	margin-left: 40px;
+	border: none;
+	border-radius: 15px;
+	background: linear-gradient(to right, #4998ec,#4ac4e8);
+	padding-right: 35px;
+	padding-bottom: 40px;
+
+}*/
+.ban_image{
+	margin-top: 95px;
+	margin-left: 20px;
+	width: 550px;
+	height: 80px;
+}
+.left{
+	margin-left: 30px;
+	margin-top: 20px;
+
+}
+.back{
+height: 90vh;
+background-image:url('modal_images/s.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+
+}
+/****************about*********************/
+.sub_section{
+	background-color: #5cbacc73;
+}
+.prev-tag-line1{	
+	text-align: center;
+	font-weight: bold;
+}
+.about_text{
+	margin: 5px 0px;
+	padding: 0 60px;
+	text-align: justify;
+}
+.about_text1{
+	margin: 5px 0px;
+	padding-right: 60px;
+	padding-left: 60px;
+	text-align: justify;
+}
+.body{
+	/*background-image:radial-gradient(#43aed9,#43aed9); */
+	background-color:#43aed9;
+	width:auto;
+	/*transition-delay:1s: */
+}
+.dona{
+	width:40px;
+	height:50px;
+}
+
+
+.about_wel{
+	margin-left: 80px;
+}
+.list_item{
+	padding-bottom: 25px;
+	font-size: 16.5px;
+	text-align: justify;
+}
+/***********************************modal*********************************************/
+/*body{
+	font-family: Arial, verdana, sans-serif;
+	font-weight: 500;
+}*/
+.modal-heading{
+	background-color: skyblue;
+}
+.modal-titletext{
+	font-weight: bold;
+	margin-left: auto;
+	color: #00539E;
+}
+.modal-body-subtitle {
+	font-weight: bold;
+	margin-left: auto;
+}
+.modal-image{
+	margin-bottom: 24px;
+	width: 120px;
+	height: 80px;
+	align-items: center;
+	transform: translateX(50px);
+}
+.modal-subtext{
+	text-align: center;
+	color: #00539E;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.modal-symptoms{
+	margin: 30px 40px 10px 40px;
+	
+}
+.modal-symptoms-text{
+	margin: 0 40px;
+	text-align: justify;
+}
+.list-item{
+	margin-left: 65px;
+}
+.list-item-color{
+	color: tomato;
+	font-weight: 600;
+}
+
+
+
+
+/*modal ends*/

@@ -1,0 +1,49 @@
+body{
+	font-family: Arial, verdana, sans-serif;
+	font-weight: 500;
+}
+.modal-heading{
+	background-color: skyblue;
+}
+.modal-titletext{
+	font-weight: bold;
+	margin-left: auto;
+	color: #00539E;
+}
+.modal-body-subtitle {
+	font-weight: bold;
+	margin-left: auto;
+}
+.modal-image{
+	margin-bottom: 24px;
+	width: 120px;
+	height: 80px;
+	align-items: center;
+	transform: translateX(50px);
+}
+.modal-subtext{
+	text-align: center;
+	color: #00539E;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.modal-symptoms{
+	margin: 30px 40px 10px 40px;
+	
+}
+.modal-symptoms-text{
+	margin: 0 40px;
+	text-align: justify;
+}
+.list-item{
+	margin-left: 20px;
+}
+.list-item-color{
+	color: tomato;
+	font-weight: 600;
+}
+
+
+
+
+
